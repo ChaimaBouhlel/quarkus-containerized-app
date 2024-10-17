@@ -5,7 +5,7 @@ import jakarta.enterprise.context.ApplicationScoped;
 @ApplicationScoped
 public class GreetingService {
 
-    //new comment
+    //new comment to test
     public String greeting(String name) {
         return "hello " + name;
     }
