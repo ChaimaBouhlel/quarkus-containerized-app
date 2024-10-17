@@ -27,7 +27,7 @@ jobs:
           cache: maven
 
       - name: Build the project
-        run: mvn clean package -Dquarkus.package.type=uber-jar
+        run: mvn clean package
 
       - name: Build Docker image
         run: |
